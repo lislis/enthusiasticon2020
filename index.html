@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Build Your Own Controller! - EnthusiastiCon 2020</title>
+    <meta name="description" content="Build your own physical interfaces for digital things and great fun!">
+
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="lislis.de">
+    <meta property="og:title" content="Build Your Own Controller!">
+    <meta property="og:url" content="https://lislis.de/talks/enthusiasicon2020">
+    <meta property="og:description" content="Build your own physical interfaces for digital things and great fun!">
+
+    <link href="assets/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <textarea id="source">
+      class: middle, center
+
+      # .title[Build Your Own Controller!]
+
+      Lisa '[lislis](https://lislis.de/)' Passing
+
+      [EnthusiastiCon](https://www.enthusiasticon.de/) 2020
+
+      Slides at [lislis.de/talks/enthusiasticon2020](https://lislis.de/talks/enthusiasticon2020)
+
+      ---
+
+      # Video games are amazing!
+
+      - Best medium for fostering empathy through creating and directing experiences
+      - Also they're fun to play and fun to build!
+
+      ---
+
+      # What breaking the immersivenes?
+
+      - Video games are software, and we usually intereact with software through hardware interfaces like keyboards and mouse, touch or game controllers
+
+      - often, that's not part of the experience that we want the player to have
+
+      ---
+
+      # Only one solution, let's build our own interfaces!
+
+      ---
+
+      # #altctrl
+
+      at GDC [2017](), [2019]()
+
+      or at Alt Ctrl Game Jam ([website](), [on the birdsite]())
+
+      ---
+
+      # Lots to chose from!
+
+      - SWAJ
+
+      - Fishing for compliments
+
+      - Pigarus
+
+      ---
+
+      # Let's break it down
+
+      - have a game idea
+
+      - have an idea for an interface / controller
+
+      - build that controller
+
+      - have the controller talk to your computer / game engine / creative coding environment
+
+      ---
+
+      ## Have a controller idea
+
+      - try to be as close to the 'real' interaction as possible
+
+      - try to repurpose something that is unrelated
+
+      - try something you just want to try
+
+      ---
+
+      ## Build that controller
+
+      - Midi controllers
+
+      - Microcontroller
+
+      ---
+
+      ## Midi
+
+      - Protocol and Hardware plug
+
+      ---
+
+      ## Microcontrollers
+
+      - integrated circuits
+
+      -
+
+      ---
+
+      ### GEtting started
+
+      - Beginner: Makey Makey
+
+      - Registers itself as keyboard / mouse
+
+      - Close the circuit
+
+      ---
+
+      ### Advanced
+
+      - Arduino Leonardo / Micro
+
+      - also register as keyboard
+
+      - Use all sensors and modules from the Arduino world
+
+      - Code your own logic
+
+      ---
+
+      ### More advanced
+
+      - Other Arduinos ( uno / nano ) or any other board
+
+      - Learn a bit about serial communication protocols
+
+      - board needs usb to serial adapter?
+
+      - UART, SPI, I2C
+
+      ---
+
+      ## UART
+
+      - Universal Asynchronous Receiver/Transmitter no clock - baud
+      - rate!  two devices -> otherwise bus contention Its own piece
+      - of circuitry on your board can be emulated with software (eg
+      - when you don't have enough)
+
+      ---
+
+      ## SPI
+
+      - Serial Peripheral Interface synchronous (synced clocks!)  lots
+      - of wires, one (master) to many (slaves) Used with sensors and
+      - modules that talk to your microcontroller
+
+      ---
+
+      ### I2C
+
+      - Inter-integrated circuit synchronous (synced clocks!)
+      - communication on short distance (on one board) fixes
+      - short-commings of UART and SPI multiple masters and slaves, 2
+      - wires
+
+      ---
+
+      Make a game!  Make a controller!  Have fun and learn!
+
+      ---
+
+      ## .title[Thank you!]
+
+      🐘 @lislis@toot.cat
+
+      ✉️ mail@lislis.de
+
+      🐙 lislis
+
+      Slides at
+      [lislis.de/talks/enthusiasticon2020](https://lislis.de/talks/enthusiasticon2020)
+
+
+    </textarea>
+    <script src="assets/remark.min.js"></script>
+    <script>var slideshow = remark.create({
+       ratio: '16:9',
+       navigation: {
+         scroll: false
+       }});
+    </script>
+  </body>
+</html>
