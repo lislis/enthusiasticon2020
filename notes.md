@@ -115,3 +115,12 @@ https://www.deviceplus.com/arduino/arduino-communication-protocols-tutorial/
 Make a game!
 Make a controller!
 Have fun and learn!
+
+
+      # Lots to chose from!
+
+      - SWAJ
+
+      - Fishing for compliments
+
+      - Pigarus
