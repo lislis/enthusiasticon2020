@@ -1,3 +1,3 @@
 # Build Your Own Controller!
 
-Slides for EnthusiasiCon 2020
+Slides for EnthusiastiCon 2020

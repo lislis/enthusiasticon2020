@@ -124,3 +124,29 @@ Have fun and learn!
       - Fishing for compliments
 
       - Pigarus
+
+
+
+      ## UART
+
+      - Universal Asynchronous Receiver/Transmitter no clock - baud
+      - rate!  two devices -> otherwise bus contention Its own piece
+      - of circuitry on your board can be emulated with software (eg
+      - when you don't have enough)
+
+      ---
+
+      ## SPI
+
+      - Serial Peripheral Interface synchronous (synced clocks!)  lots
+      - of wires, one (master) to many (slaves) Used with sensors and
+      - modules that talk to your microcontroller
+
+      ---
+
+      ### I2C
+
+      - Inter-integrated circuit synchronous (synced clocks!)
+      - communication on short distance (on one board) fixes
+      - short-commings of UART and SPI multiple masters and slaves, 2
+      - wires
